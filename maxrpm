@@ -1,0 +1,4 @@
+maxrpm :: (RealFloat a) => a -> String
+maxrpm rpm
+       |rpm <= 9999 = "Corner"
+       |otherwise = "Not a corner"
