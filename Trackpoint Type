@@ -1,0 +1,5 @@
+data trackPoint = TP {rpm :: Integer
+                    , time :: Integer
+                    , distance :: Float
+                    , speed :: Float
+                    } Deriving (Show)
