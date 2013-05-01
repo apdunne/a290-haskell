@@ -1,0 +1,1 @@
+corner xs = [ if x < 10000 then "Corner" else "Straight" | x <- xs ]
